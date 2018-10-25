@@ -14,6 +14,7 @@ wp-content/languages/plugins/
 
 /.htaccess
 /license.txt
+/local-adminer-*.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
