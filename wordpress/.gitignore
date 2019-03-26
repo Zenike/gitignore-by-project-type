@@ -13,9 +13,9 @@ wp-content/plugins/
 wp-content/languages/
 wp-content/updraft/
 
-stats/
-
+/stats/
 /vendor/
+
 node_modules/
 
 /.htaccess
