@@ -15,7 +15,7 @@ wp-content/updraft/
 
 stats/
 
-vendor/
+/vendor/
 node_modules/
 
 /.htaccess
