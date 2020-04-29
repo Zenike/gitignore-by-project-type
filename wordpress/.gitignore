@@ -28,6 +28,8 @@ node_modules/
 
 .htpasswd
 
+.DS_Store
+
 prepros-6.config
 *.css.map
 *.js.map
