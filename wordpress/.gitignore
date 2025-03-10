@@ -14,6 +14,10 @@
 /wp-content/updraft/
 /wp-content/wp-rocket-config/
 
+# Exclude all theme folders except for the current project theme
+wp-content/themes/*
+!wp-content/themes/mythemefolder/
+
 /stats/
 /vendor/
 
