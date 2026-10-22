@@ -1,39 +1,55 @@
-*.log
+# Local configuration and development environment
 /wp-config.php
-/wp-content/advanced-cache.php
-/wp-content/backup-db/
-/wp-content/backups/
-/wp-content/blogs.dir/
-/wp-content/cache/
-/wp-content/upgrade/
-/wp-content/uploads/
+/wp-config-ddev.php
+/.htaccess
+.htpasswd
+.ddev
+/local-adminer-*.php
+
+# WordPress plugins and themes
 /wp-content/mu-plugins/
-/wp-content/wp-cache-config.php
-/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/index.php
+/wp-content/themes/*
+!/wp-content/themes/index.php
+!/wp-content/themes/visipose/
+
+# WordPress content and updates
+/.maintenance
+/wp-content/uploads/
 /wp-content/languages/
-/wp-content/updraft/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+
+# WordPress cache files and configuration
+/wp-content/advanced-cache.php
+/wp-content/cache/
+/wp-content/wp-cache-config.php
 /wp-content/wp-rocket-config/
 
-# Exclude all theme folders except for the current project theme
-wp-content/themes/*
-!wp-content/themes/mythemefolder/
+# WordPress backups
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/updraft/
 
-/stats/
+# Dependencies
 /vendor/
-
 node_modules/
 
-/.htaccess
+# Build tools and source maps
+prepros-6.config
+*.css.map
+*.js.map
+
+# Logs and statistics
+*.log
+/stats/
+
+# Documentation and generated sitemaps
 /license.txt
-/local-adminer-*.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
 
-.htpasswd
-
+# Operating system files
 .DS_Store
-
-prepros-6.config
-*.css.map
-*.js.map
