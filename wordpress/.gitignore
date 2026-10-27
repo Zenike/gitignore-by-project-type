@@ -33,6 +33,7 @@
 /wp-content/updraft/
 
 # Dependencies
+/composer.lock
 /vendor/
 node_modules/
 
